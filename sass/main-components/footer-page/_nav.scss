@@ -1,0 +1,29 @@
+.nav-basement {
+  display: flex;
+  align-items: baseline;
+}
+
+.contacts-link {
+  flex-direction: column;
+  color: $primary-white-color;
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.contacts-text {
+  margin: 0;
+}
+
+.address-box {
+  margin-right: 69px;
+}
+
+.contacts-link .link {
+  display: block;
+  color: $link-color;
+
+  text-decoration: none;
+}

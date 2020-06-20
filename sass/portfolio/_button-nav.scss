@@ -1,0 +1,56 @@
+.title-first {
+  margin: 0;
+}
+
+.button-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
+  .item {
+    margin-right: 8px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .filter {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    min-width: 73px;
+    padding: 6px 22px;
+
+    color: $title-text-color;
+    background-color: $primary-bg-color;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      color: $primary-white-color;
+      background-color: $accent-color;
+    }
+
+    &-current {
+      border: 1px solid transparent;
+      border-radius: 4px;
+      min-width: 73px;
+      padding: 6px 22px;
+
+      color: $primary-white-color;
+      background-color: $accent-color;
+
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.62;
+      letter-spacing: 0.03em;
+    }
+  }
+}

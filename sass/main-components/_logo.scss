@@ -1,0 +1,24 @@
+.logo {
+  display: block;
+  text-decoration: none;
+
+  color: $accent-color;
+
+  font-family: $second-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-first {
+  color: $logo-color;
+}
+
+.logo-second {
+  color: $primary-white-color;
+}
+
+.logo.basement {
+  margin-bottom: 10px;
+}
